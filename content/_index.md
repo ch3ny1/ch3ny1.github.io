@@ -64,6 +64,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: markdown
+    content:
+      title: 'Academic Service'
+      text: |-
+      **External Reviewer:**
+        \begin{itemize}
+          \item IEEE Transactions on Information Forensics and Security 2024
+          \item IEEE Conference on Communication and Network Security 2023
+        \end{itemize}
+      
   # - block: collection
   #   id: talks
   #   content:
