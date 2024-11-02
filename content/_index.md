@@ -69,10 +69,9 @@ sections:
       title: 'Academic Service'
       text: |-
         **External Reviewer:**
-        \begin{itemize}
-          \item IEEE Transactions on Information Forensics and Security 2024
-          \item IEEE Conference on Communication and Network Security 2023
-        \end{itemize}
+
+        * IEEE Transactions on Information Forensics and Security 2024
+        * IEEE Conference on Communication and Network Security 2023
       design:
         columns: '1'
       
