@@ -71,8 +71,9 @@ sections:
       text: |-
         **External Reviewer:**
 
-        * IEEE Transactions on Information Forensics and Security 2024
-        * IEEE Conference on Communication and Network Security 2023
+        IEEE Transactions on Information Forensics and Security 2024
+        
+        IEEE Conference on Communication and Network Security 2023
       design:
         spacing:
           padding: [0, 0, 0, 0]
