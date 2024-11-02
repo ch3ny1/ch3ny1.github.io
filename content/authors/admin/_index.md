@@ -53,7 +53,7 @@ interests:
   - Connected and Autonomous Vehicles
 
 education:
-  - area: PhD Electrical and Computer Engineering
+  - area: PhD in Electrical and Computer Engineering
     institution: University of Arizona
     date_start: 2023-01-01
     #date_end: 2020-12-31
@@ -62,7 +62,7 @@ education:
     #button:
     #  text: 'Read Thesis'
     #  url: 'https://example.com'
-  - area: MA Statistics
+  - area: MA in Statistics
     institution: Columbia University
     date_start: 2021-09-01
     date_end: 2022-12-15
@@ -73,7 +73,9 @@ education:
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Statistics, BA Mathematics, Minor Computer Science
+  - area: BSc in Statistics, 
+    BA in Mathematics, 
+    Minor in Computer Science
     institution: University of Minnesota
     date_start: 2018-09-01
     date_end: 2021-05-15
