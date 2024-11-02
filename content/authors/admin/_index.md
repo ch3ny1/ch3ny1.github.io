@@ -185,4 +185,6 @@ awards:
 
 ## About Me
 
-Placeholder for now.
+Hello! I’m a second-year PhD student at the University of Arizona's [**WiSeR Lab**](http://wiser.arizona.edu/), advised by [**Dr. Ming Li, FIEEE**](http://wiser.arizona.edu/mingli/index.html), where I’m exploring performance and security challenges in cooperative vehicular perception. My research interests and experience span machine learning, computer vision, and cybersecurity, with a broad curiosity about artificial intelligence — from its theoretical foundations to practical applications and societal implications.
+
+Before joining the University of Arizona, I earned my master's degree from Columbia University and completed my bachelor's degrees at the University of Minnesota, Twin Cities, with two formative years spent at the Chinese University of Hong Kong (Shenzhen). Beyond academics, I love deep dives into philosophy and am an avid outdoor enthusiast. I’ve summited several of Colorado’s famed 14ers, including Mt. Harvard, Mt. Yale, and Mt. Holy Cross.
