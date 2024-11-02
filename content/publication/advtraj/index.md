@@ -12,6 +12,6 @@ authors:
 date: '2024-01-01'
 publishDate: '2024-11-02T02:38:08.849641Z'
 publication_types:
--  ['paper-conference']
+-  paper-conference
 publication: '*Proceedings of the 40th Annual Computer Security Applications Conference*'
 ---
