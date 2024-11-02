@@ -55,6 +55,7 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
+    id: papers
     content:
       title: Recent Publications
       text: ""
@@ -73,7 +74,8 @@ sections:
         * IEEE Transactions on Information Forensics and Security 2024
         * IEEE Conference on Communication and Network Security 2023
       design:
-        columns: '1'
+        spacing:
+          padding: [0, 0, 0, 0]
       
   # - block: collection
   #   id: talks
