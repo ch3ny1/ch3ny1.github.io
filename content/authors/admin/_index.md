@@ -73,7 +73,8 @@ education:
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc in Statistics, 
+  - area: |
+    BSc in Statistics, 
     BA in Mathematics, 
     Minor in Computer Science
     institution: University of Minnesota
