@@ -65,18 +65,18 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: markdown
-    content:
-      title: 'Academic Service'
-      text: |-
-        **External Reviewer:**
+  # - block: markdown
+  #   content:
+  #     title: 'Academic Service'
+  #     text: |-
+  #       **External Reviewer:**
 
-        IEEE Transactions on Information Forensics and Security 2024
-        
-        IEEE Conference on Communication and Network Security 2023
-      design:
-        spacing:
-          padding: [0, 0, 0, 0]
+  #       IEEE Transactions on Information Forensics and Security 2024
+
+  #       IEEE Conference on Communication and Network Security 2023
+  #     design:
+  #       spacing:
+  #         padding: [0, 0, 0, 0]
       
   # - block: collection
   #   id: talks
