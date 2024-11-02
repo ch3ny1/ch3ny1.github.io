@@ -47,13 +47,12 @@ profiles:
     url: https://orcid.org/0009-0005-3130-0676
 
 interests:
-  - Artificial Intelligence
   - Adversarial Machine Learning
   - Cyber-Physical System Security
   - Connected and Autonomous Vehicles
 
 education:
-  - area: PhD in Electrical and Computer Engineering
+  - area: PhD Student in Electrical and Computer Engineering
     institution: University of Arizona
     date_start: 2023-01-01
     #date_end: 2020-12-31
