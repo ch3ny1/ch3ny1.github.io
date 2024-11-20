@@ -191,10 +191,10 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 
 ## Awards
 
-\begin{itemize}
-  \item recipient of the [**2023 Herbold Fellowship**](https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research), which is supported by the former COO of Microsoft [**Dr. Bob Herbold**](https://www.bobherbold.com/).
-  \item Featured in the [**University of Minnesota's Scholar Walk**](https://scholarswalk.umn.edu/chenyi-wang) as a Phi Beta Kappa awardee.
-  \item Recipient of the [**Columbia University ASA JSM Award 2022**](https://www.linkedin.com/posts/ma-in-statistics-program-columbia-university_winners-jsm-statistics-activity-6947188762925813760-vNKQ?utm_source=share&utm_medium=member_desktop) and a Department Fellowship.
-  \item Served as the [**VehicleSec 2023 student volunteer**](https://www.ndss-symposium.org/ndss2023/co-located-events/vehiclesec/leadership/) and am a travel grant awardee.
-\end{itemize}
+
+* Recipient of the [**2023 Herbold Fellowship**](https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research), which is supported by the former COO of Microsoft [**Dr. Bob Herbold**](https://www.bobherbold.com/).
+* Featured in the [**University of Minnesota's Scholar Walk**](https://scholarswalk.umn.edu/chenyi-wang) as a Phi Beta Kappa awardee.
+* Recipient of the [**Columbia University ASA JSM Award 2022**](https://www.linkedin.com/posts/ma-in-statistics-program-columbia-university_winners-jsm-statistics-activity-6947188762925813760-vNKQ?utm_source=share&utm_medium=member_desktop) and a Department Fellowship.
+* Served as the [**VehicleSec 2023 student volunteer**](https://www.ndss-symposium.org/ndss2023/co-located-events/vehiclesec/leadership/) and am a travel grant awardee.
+
 
