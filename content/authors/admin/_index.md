@@ -188,3 +188,13 @@ awards:
 Hello! I’m a second-year PhD student at the University of Arizona's [**WiSeR Lab**](http://wiser.arizona.edu/), advised by [**Dr. Ming Li, FIEEE**](http://wiser.arizona.edu/mingli/index.html), where I’m exploring performance and security challenges in cooperative vehicular perception. My research interests and experience span machine learning, computer vision, and cybersecurity, with a broad curiosity about artificial intelligence — from its theoretical foundations to practical applications and societal implications.
 
 Before joining the University of Arizona, I earned my master's degree from Columbia University and completed my bachelor's degrees at the University of Minnesota, Twin Cities, with two formative years spent at the Chinese University of Hong Kong (Shenzhen). Beyond academics, I love deep dives into philosophy and am an avid outdoor enthusiast. I’ve summited several of Colorado’s famed 14ers, including Mt. Harvard, Mt. Yale, and Mt. Holy Cross.
+
+## Awards
+
+I am honored to be a recipient of the [**2023 Herbold Fellowship**](https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research), which is supported by the former COO of Microsoft [**Dr. Bob Herbold**](https://www.bobherbold.com/).
+
+I am featured in the [**University of Minnesota's Scholar Walk**](https://scholarswalk.umn.edu/chenyi-wang) as a Phi Beta Kappa awardee.
+
+Recipient of the [**Columbia University ASA JSM Award 2022**](https://www.linkedin.com/posts/ma-in-statistics-program-columbia-university_winners-jsm-statistics-activity-6947188762925813760-vNKQ?utm_source=share&utm_medium=member_desktop) and a Depart ment Fellowship.
+
+I served as the [**VehicleSec 2023 student volunteer**](https://www.ndss-symposium.org/ndss2023/co-located-events/vehiclesec/leadership/) and am a travel grant awardee.
