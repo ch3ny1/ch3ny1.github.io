@@ -41,8 +41,8 @@ profiles:
     url: https://github.com/ch3ny1
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/chenyi-wang-8b171b138/
-  #- icon: academicons/google-scholar
-  #  url: https://scholar.google.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=OeLKJ4sAAAAJ&hl=en&oi=sra
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-3130-0676
 
