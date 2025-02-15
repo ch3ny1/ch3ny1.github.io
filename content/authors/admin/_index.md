@@ -198,4 +198,26 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 * Served as the [**VehicleSec 2023 student volunteer**](https://www.ndss-symposium.org/ndss2023/co-located-events/vehiclesec/leadership/) and am a travel grant awardee.
 
 
-Last update: Jan 15, 2025.
+## Activities and Services
+### Reviewer 
+
+* IEEE Transactions on Information Forensics and Security (IEEE TIFS) 2024
+* IEEE Transactions on Cyber-Physical Systems (IEEE TCPS) 2025
+* IEEE International Conference on Communications (IEEE ICC) 2025
+* IEEE International Conference on Computer Communications and Networks (IEEE ICCCN) 2023
+
+
+### External Reviewer
+
+* USENIX Security Symposium 2023, 2024
+* ACM Computer and Communications Security (ACM CCS) 2023, 2024, 2025
+* Symposium on Vehicle Security and Privacy (VehicleSec, co-located with NDSS) 2023
+
+### Teaching Assistant
+
+* ECE 471/571 - Fund. of Info. and Network Security, Univ. of Arizona Jan. 2025 – May. 2025
+* STAT 1101W - Introduction to Statistics, Columbia University Sep. 2022 – Dec. 2022
+* STAT GR5203 - Probability, Columbia University Jan. 2022 – May 2022
+
+
+Last update: Feb 15, 2025.
