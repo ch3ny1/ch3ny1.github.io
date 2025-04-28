@@ -220,4 +220,4 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 * STAT GR5203 - Probability, Columbia University Jan. 2022 – May 2022
 
 
-Last update: Feb 15, 2025.
+Last update: April 28, 2025.
