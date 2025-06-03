@@ -15,7 +15,7 @@ date: '2025-05-01'
 publishDate: '2025-04-29T01:09:26.062201Z'
 publication_types:
 - paper-conference
-publication: '* 2025 IEEE Symposium on Security and Privacy (SP) *'
+publication: '2025 IEEE Symposium on Security and Privacy (SP)'
 doi: 10.1109/SP61157.2025.00236
 abstract: " Camera-based perception is a central component to the visual perception
   of autonomous systems. Recent works have investigated latency attacks against perception
@@ -35,8 +35,6 @@ abstract: " Camera-based perception is a central component to the visual percept
   show that DetStorm causes a 506% increase in detected objects on average, delaying
   perception results by up to 8.1 seconds, and capable of causing physical consequences
   on real-world autonomous driving systems. "
-tags:
-- ''
 links:
 - name: URL
   url: https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00236
