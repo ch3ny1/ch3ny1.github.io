@@ -13,7 +13,7 @@ date: '2024-12-01'
 publishDate: '2025-06-27T17:27:28.789523Z'
 publication_types:
 - paper-conference
-publication: '* 2024 Annual Computer Security Applications Conference (ACSAC) *'
+publication: '2024 Annual Computer Security Applications Conference (ACSAC)'
 doi: 10.1109/ACSAC63791.2024.00080
 links:
 - name: URL
