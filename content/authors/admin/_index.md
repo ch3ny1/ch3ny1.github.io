@@ -191,6 +191,8 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 
 ## Awards
 
+* USENIX Security Symposium Student Travel Grant 2025
+* University of Arizona GPSC Student Travel Grant 2025
 * Recipient of the [**2023 Herbold Fellowship**](https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research), which is supported by the former COO of Microsoft [**Dr. Bob Herbold**](https://www.bobherbold.com/).
 * Featured in the [**University of Minnesota's Scholar Walk**](https://scholarswalk.umn.edu/chenyi-wang) as a Phi Beta Kappa awardee.
 * Recipient of the [**Columbia University ASA JSM Award 2022**](https://www.linkedin.com/posts/ma-in-statistics-program-columbia-university_winners-jsm-statistics-activity-6947188762925813760-vNKQ?utm_source=share&utm_medium=member_desktop) and a Department Fellowship.
@@ -199,8 +201,14 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 
 ## Activities and Services
 
+### Committee Member
+
+* USENIX Security 2026 Artifact Evaluation Committee
+
 ### Reviewer 
 
+* Association for the Advancement of Artificial Intelligence (AAAI) 2025
+* IEEE Internet of Things Journal (IEEE IoT) 2025
 * IEEE Transactions on Information Forensics and Security (IEEE TIFS) 2024
 * IEEE Transactions on Cyber-Physical Systems (IEEE TCPS) 2025
 * IEEE International Conference on Communications (IEEE ICC) 2025
@@ -220,4 +228,4 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 * STAT GR5203 - Probability, Columbia University Jan. 2022 – May 2022
 
 
-Last update: April 28, 2025.
+Last update: Nov. 7, 2025.
