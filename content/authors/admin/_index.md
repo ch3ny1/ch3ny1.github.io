@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -47,12 +47,12 @@ profiles:
     url: https://orcid.org/0009-0005-3130-0676
 
 interests:
-  - Adversarial Machine Learning
+  - AI/ML Security
   - Cyber-Physical System Security
   - Connected and Autonomous Vehicles
 
 education:
-  - area: PhD Student in Electrical and Computer Engineering
+  - area: PhD Candidate in Electrical and Computer Engineering
     institution: University of Arizona
     date_start: 2023-01-01
     #date_end: 2020-12-31
@@ -185,9 +185,9 @@ awards:
 
 ## About Me
 
-Hello! I’m a third-year PhD student at the University of Arizona's [**WiSeR Lab**](http://wiser.arizona.edu/), advised by [**Dr. Ming Li, FIEEE**](http://wiser.arizona.edu/mingli/index.html), where I’m exploring performance and security challenges in cooperative vehicular perception. My research interests and experience span machine learning, computer vision, and cybersecurity, with a broad curiosity about artificial intelligence — from its theoretical foundations to practical applications and societal implications.
+Hello! I’m a PhD candidate at the University of Arizona's [**WiSeR Lab**](http://wiser.arizona.edu/), advised by [**Dr. Ming Li, FIEEE**](http://wiser.arizona.edu/mingli/index.html), where I’m exploring performance and security challenges in cooperative vehicular perception. My research interests and experience span machine learning, computer vision, and cybersecurity, with a broad curiosity about artificial intelligence — from its theoretical foundations to practical applications and societal implications.
 
-Before joining the University of Arizona, I earned my master's degree from Columbia University and completed my bachelor's degrees at the University of Minnesota, Twin Cities, with two formative years spent at the Chinese University of Hong Kong (Shenzhen). Beyond academics, I love deep dives into philosophy and am an avid outdoor enthusiast. I’ve summited several of Colorado’s famed 14ers, including Mt. Harvard, Mt. Yale, and Mt. Holy Cross.
+Before joining the University of Arizona in 2023, I earned my master's degree from Columbia University and completed my bachelor's degrees at the University of Minnesota, Twin Cities, with two formative years spent at the Chinese University of Hong Kong (Shenzhen). Beyond academics, I love deep dives into philosophy and am an avid outdoor enthusiast. I’ve summited several of Colorado’s famed 14ers, including Mt. Harvard, Mt. Yale, and Mt. Holy Cross.
 
 ## Awards
 
@@ -207,7 +207,7 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 
 ### Reviewer 
 
-* Association for the Advancement of Artificial Intelligence (AAAI) 2025
+* AAAI Conference on Artificial Intelligence (AAAI) 2025
 * IEEE Internet of Things Journal (IEEE IoT) 2025
 * IEEE Transactions on Information Forensics and Security (IEEE TIFS) 2024
 * IEEE Transactions on Cyber-Physical Systems (IEEE TCPS) 2025
@@ -228,4 +228,4 @@ Before joining the University of Arizona, I earned my master's degree from Colum
 * STAT GR5203 - Probability, Columbia University Jan. 2022 – May 2022
 
 
-Last update: Nov. 7, 2025.
+Last update: Dec. 17, 2025.
