@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Chenyi Wang</title>
+    <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu15857853141278862744.png</url>
+      <title>Paper-Conference</title>
+      <link>http://localhost:1313/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>CP-FREEZER: Latency Attacks against Vehicular Cooperative Perception</title>
+      <link>http://localhost:1313/publication/wang-2026-cpfreezer/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2026-cpfreezer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Threat to Trust: Exploiting Attention Mechanisms for Attacks and Defenses in Cooperative Perception</title>
+      <link>http://localhost:1313/publication/wang-2025-sombra-lucia/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2025-sombra-lucia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Physical Latency Attacks against Camera-based Perception</title>
+      <link>http://localhost:1313/publication/muller-2025-detstorm/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/muller-2025-detstorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physical ID-Transfer Attacks against Multi-Object Tracking via Adversarial Trajectory</title>
+      <link>http://localhost:1313/publication/wang-2024-advtraj/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2024-advtraj/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
