@@ -204,6 +204,7 @@ Before joining the University of Arizona in 2023, I earned my master's degree fr
 ### Committee Member
 
 * USENIX Security 2026 Artifact Evaluation Committee
+* NDSS Symposium 2026 Poster Session Committee
 
 ### Reviewer 
 
@@ -228,4 +229,4 @@ Before joining the University of Arizona in 2023, I earned my master's degree fr
 * STAT GR5203 - Probability, Columbia University Jan. 2022 – May 2022
 
 
-Last update: Dec. 17, 2025.
+Last update: Jan 21. 2026
