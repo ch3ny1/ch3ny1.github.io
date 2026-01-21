@@ -6,7 +6,8 @@
 # Website name
 title: Chenyi Wang
 # Website URL
-baseURL: 'https://example.com/'
+# Use the production site so generated links and assets resolve on GitHub Pages.
+baseURL: 'https://ch3ny1.github.io/'
 
 ############################
 ## LANGUAGE
