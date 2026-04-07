@@ -215,16 +215,22 @@ img {
 
 .bio-cta {
   font-size: 0.8125rem;
-  color: var(--color-accent-text);
-  background: var(--color-accent-bg);
+  color: #1e40af;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
   padding: 6px 12px;
   border-radius: 6px;
-  margin-top: 10px;
+  margin-top: 12px;
   line-height: 1.5;
 }
 
 .bio-cta a {
+  color: #1d4ed8;
   font-weight: 600;
+}
+
+.bio-cta a:hover {
+  color: #1e3a8a;
 }
 
 .tags {
