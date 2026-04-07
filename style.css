@@ -213,6 +213,20 @@ img {
   font-weight: 500;
 }
 
+.bio-cta {
+  font-size: 0.8125rem;
+  color: var(--color-accent-text);
+  background: var(--color-accent-bg);
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.bio-cta a {
+  font-weight: 600;
+}
+
 .tags {
   display: flex;
   gap: 6px;
