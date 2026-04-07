@@ -13,6 +13,60 @@
     });
   });
 
+  // ---- Chinese name blur reveal ----
+  var nameCn = document.getElementById('name-cn');
+  if (nameCn) {
+    nameCn.addEventListener('click', function () {
+      this.classList.toggle('revealed');
+    });
+  }
+
+  // ---- Photo carousel ----
+  var carousel = document.querySelector('.photo-carousel');
+  var dots = document.querySelectorAll('.dot');
+  if (carousel && dots.length > 1) {
+    var imgs = carousel.querySelectorAll('.carousel-img');
+    var currentIndex = 0;
+    var autoTimer = null;
+
+    function showImage(index) {
+      imgs.forEach(function (img) { img.classList.remove('active'); });
+      dots.forEach(function (dot) { dot.classList.remove('active'); });
+      imgs[index].classList.add('active');
+      dots[index].classList.add('active');
+      currentIndex = index;
+    }
+
+    function nextImage() {
+      showImage((currentIndex + 1) % imgs.length);
+    }
+
+    // Auto-rotate every 4 seconds
+    function startAuto() {
+      autoTimer = setInterval(nextImage, 4000);
+    }
+
+    function resetAuto() {
+      clearInterval(autoTimer);
+      startAuto();
+    }
+
+    dots.forEach(function (dot) {
+      dot.addEventListener('click', function () {
+        showImage(parseInt(this.dataset.index, 10));
+        resetAuto();
+      });
+    });
+
+    // Click photo to advance
+    carousel.addEventListener('click', function () {
+      nextImage();
+      resetAuto();
+    });
+
+    startAuto();
+  }
+
   // ---- Easter egg card flip ----
   var easterEgg = document.getElementById('easter-egg');
   if (easterEgg) {

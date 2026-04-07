@@ -37,14 +37,15 @@
 
     <!-- Row 1: Bio + Education + Photo -->
     <section class="card card-bio">
-      <h1>Chenyi Wang <span class="name-cn">(王晨懿)</span></h1>
+      <h1>Chenyi Wang <span class="name-cn" id="name-cn" title="Click to reveal">(王晨懿)</span></h1>
       <p class="subtitle">PhD Candidate · <a href="http://wiser.arizona.edu/">University of Arizona</a></p>
-      <p class="bio-text">Hello! I'm a PhD candidate at the University of Arizona's <a href="http://wiser.arizona.edu/">WiSeR Lab</a>, advised by <a href="http://wiser.arizona.edu/mingli/index.html">Dr. Ming Li, FIEEE</a>, where I'm exploring performance and security challenges in cooperative vehicular perception. My research interests and experience span machine learning, computer vision, and cybersecurity, with a broad curiosity about artificial intelligence — from its theoretical foundations to practical applications and societal implications.</p>
-      <p class="bio-text">Before joining the University of Arizona in 2023, I earned my master's degree from Columbia University and completed my bachelor's degrees at the University of Minnesota, Twin Cities, with two formative years spent at the Chinese University of Hong Kong (Shenzhen).</p>
+      <p class="bio-text">PhD candidate at the <a href="http://wiser.arizona.edu/">WiSeR Lab</a>, advised by <a href="http://wiser.arizona.edu/mingli/index.html">Dr. Ming Li, FIEEE</a>, researching security and performance of cooperative vehicular perception. My work spans AI/ML security, computer vision, and cyber-physical systems.</p>
       <div class="tags">
         <span class="tag">AI/ML Security</span>
-        <span class="tag">CPS Security</span>
-        <span class="tag">Autonomous Vehicles</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Robotics</span>
+        <span class="tag">Cyber-Physical Systems</span>
+        <span class="tag">Multi-Agent Systems</span>
       </div>
       <div class="social-links">
         <a href="mailto:chenyiw@arizona.edu" title="Email">✉ Email</a>
@@ -59,26 +60,45 @@
       <h2 class="card-label">Education</h2>
       <div class="edu-item">
         <div class="edu-degree">PhD · ECE</div>
-        <div class="edu-school">U of Arizona · 2023–</div>
+        <div class="edu-school">U of Arizona · 2023–2026 (Expected)</div>
+        <div class="edu-detail">GPA: 4.0 · <a href="https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research">Herbold Fellow</a></div>
       </div>
       <div class="edu-item">
         <div class="edu-degree">MA · Statistics</div>
-        <div class="edu-school">Columbia University · 4.0 GPA</div>
+        <div class="edu-school">Columbia University · GPA: 4.0</div>
       </div>
       <div class="edu-item">
-        <div class="edu-degree">BSc · Statistics & Math</div>
-        <div class="edu-school">U of Minnesota · 3.93 GPA</div>
+        <div class="edu-degree">BS · Statistics & BA · Mathematics</div>
+        <div class="edu-school">U of Minnesota · GPA: 3.93</div>
+        <div class="edu-detail">Minor in CS · High Distinction · <a href="https://scholarswalk.umn.edu/chenyi-wang">Phi Beta Kappa</a></div>
       </div>
     </section>
 
-    <section class="card card-photo">
-      <img src="assets/avatar.jpeg" alt="Chenyi Wang" class="avatar">
+    <section class="card card-photo" id="photo-card">
+      <div class="photo-carousel">
+        <img src="assets/avatar.jpeg" alt="Chenyi Wang" class="carousel-img active">
+        <!-- Add more photos here: <img src="assets/photo2.jpeg" alt="..." class="carousel-img"> -->
+      </div>
+      <div class="photo-dots" id="photo-dots">
+        <span class="dot active" data-index="0"></span>
+        <!-- Add more dots for additional photos -->
+      </div>
     </section>
 
     <!-- Row 2: Papers + Awards + Easter Egg -->
     <section class="card card-papers" id="papers">
-      <h2 class="card-label">Selected Papers</h2>
+      <h2 class="card-label">Publications</h2>
       <div class="papers-grid">
+        <div class="paper paper-first-author paper-under-review">
+          <span class="paper-venue venue-review">ECCV 2026 · Under Review</span>
+          <span class="paper-title">Joint Semantic Feature Encoding and Transmission for Communication-Efficient Cooperative Perception</span>
+          <span class="paper-authors">Wang, Li, Li, Wen</span>
+        </div>
+        <div class="paper paper-under-review">
+          <span class="paper-venue venue-review">VehicleSec 2026 · Under Review</span>
+          <span class="paper-title">Adversarial Trust Poisoning in Vehicular Collaborative Perception</span>
+          <span class="paper-authors">Liu, Wang, Li, Zhang</span>
+        </div>
         <div class="paper paper-first-author">
           <span class="paper-venue venue-highlight">AAAI 2026</span>
           <a href="https://arxiv.org/abs/2508.01062" class="paper-title" target="_blank" rel="noopener">CP-FREEZER: Latency Attacks against Vehicular Cooperative Perception</a>
@@ -95,7 +115,12 @@
           <span class="paper-authors">Muller, Song, Wang, Zhan, Monteuuis, Man, Li, Gerdes, Petit, Celik</span>
         </div>
         <div class="paper">
-          <span class="paper-venue">ACSAC 2024</span>
+          <span class="paper-venue">IEEE S&P Magazine 2025</span>
+          <span class="paper-title">Spatiotemporal Consistency: A Universal Defense Against Attacks on Autonomous Systems</span>
+          <span class="paper-authors">Muller, Wang, Song, Monteuuis, Man, Li, Gerdes, Petit, Celik</span>
+        </div>
+        <div class="paper paper-first-author">
+          <span class="paper-venue venue-highlight">ACSAC 2024</span>
           <a href="https://doi.ieeecomputersociety.org/10.1109/ACSAC63791.2024.00080" class="paper-title" target="_blank" rel="noopener">Physical ID-Transfer Attacks against Multi-Object Tracking via Adversarial Trajectory</a>
           <span class="paper-authors">Wang, Man, Muller, Li, Celik, Gerdes, Petit</span>
         </div>
@@ -103,13 +128,12 @@
     </section>
 
     <section class="card card-awards">
-      <h2 class="card-label">Awards</h2>
+      <h2 class="card-label">Honors & Awards</h2>
       <ul class="awards-list">
-        <li>🏆 <a href="https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research">Herbold Fellowship '23</a></li>
-        <li>✈️ USENIX Security Travel Grant '25</li>
-        <li>✈️ GPSC Student Travel Grant '25</li>
-        <li>🎓 <a href="https://scholarswalk.umn.edu/chenyi-wang">Phi Beta Kappa · Scholar Walk</a></li>
-        <li>📊 <a href="https://www.linkedin.com/posts/ma-in-statistics-program-columbia-university_winners-jsm-statistics-activity-6947188762925813760-vNKQ">Columbia ASA JSM '22</a></li>
+        <li>✈️ USENIX Security Travel Grant <span class="award-year">'25</span></li>
+        <li>✈️ GPSC Student Travel Grant <span class="award-year">'24</span></li>
+        <li>🏆 <a href="https://news.engineering.arizona.edu/news/graduate-student-fellowships-boost-contributions-life-changing-research">Herbold Fellowship</a>, VehicleSec Travel Grant <span class="award-year">'23</span></li>
+        <li>📊 Columbia Stats Fellowship, <a href="https://www.linkedin.com/posts/ma-in-statistics-program-columbia-university_winners-jsm-statistics-activity-6947188762925813760-vNKQ">ASA JSM Award</a> <span class="award-year">'22</span></li>
       </ul>
     </section>
 
@@ -137,42 +161,16 @@
             <li>USENIX Security 2026 Artifact Evaluation</li>
             <li>VehicleSec 2026 Poster/Demo</li>
             <li>NDSS 2026 Poster Session</li>
+            <li>EAI SmartSP 2026</li>
           </ul>
         </div>
         <div>
-          <h3 class="service-subhead">External Reviewer</h3>
+          <h3 class="service-subhead">Reviewer</h3>
           <ul class="service-list">
-            <li>USENIX Security '23, '24</li>
+            <li>USENIX Security '23, '24, '26</li>
             <li>ACM CCS '23, '24, '25</li>
-            <li>VehicleSec '23</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="card card-teaching-reviewer">
-      <div class="service-grid">
-        <div>
-          <h2 class="card-label">Teaching</h2>
-          <ul class="teaching-list">
-            <li>
-              <span class="teaching-course">ECE 471/571</span>
-              <span class="teaching-detail">Info & Network Security · UofA</span>
-            </li>
-            <li>
-              <span class="teaching-course">STAT 1101W</span>
-              <span class="teaching-detail">Intro to Statistics · Columbia</span>
-            </li>
-            <li>
-              <span class="teaching-course">STAT GR5203</span>
-              <span class="teaching-detail">Probability · Columbia</span>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="card-label">Reviewer</h2>
-          <ul class="service-list">
-            <li>AAAI '25 · IEEE IoT '25</li>
+            <li>VehicleSec '23, '25</li>
+            <li>AAAI '26 · IEEE IoT '25</li>
             <li>IEEE TIFS '24 · TCPS '25</li>
             <li>IEEE ICC '25 · ICCCN '23</li>
           </ul>
@@ -180,10 +178,32 @@
       </div>
     </section>
 
+    <section class="card card-teaching">
+      <h2 class="card-label">Teaching Assistant</h2>
+      <ul class="teaching-list">
+        <li>
+          <span class="teaching-course">ECE 478/578</span>
+          <span class="teaching-detail">Computer Networks · UofA · Fall 2025</span>
+        </li>
+        <li>
+          <span class="teaching-course">ECE 471/571</span>
+          <span class="teaching-detail">Info & Network Security · UofA · Spring 2025</span>
+        </li>
+        <li>
+          <span class="teaching-course">STAT 1101W</span>
+          <span class="teaching-detail">Intro to Statistics · Columbia · Fall 2022</span>
+        </li>
+        <li>
+          <span class="teaching-course">STAT GR5203</span>
+          <span class="teaching-detail">Probability · Columbia · Spring 2022</span>
+        </li>
+      </ul>
+    </section>
+
   </main>
 
   <footer class="footer">
-    <p>© 2026 Chenyi Wang · Last updated Feb. 13, 2026</p>
+    <p>© 2026 Chenyi Wang · Last updated Apr. 7, 2026</p>
   </footer>
 
   <script src="main.js"></script>
