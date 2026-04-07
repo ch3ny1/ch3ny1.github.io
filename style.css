@@ -213,6 +213,19 @@ img {
   font-weight: 500;
 }
 
+.collab-link {
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 2px;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+.collab-link:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
 .bio-cta {
   font-size: 0.8125rem;
   color: #1e40af;
