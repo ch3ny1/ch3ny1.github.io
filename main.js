@@ -85,6 +85,48 @@
     }
   }
 
+  // ---- Cite modal ----
+  var citeOverlay = document.getElementById('cite-overlay');
+  var citeContent = document.getElementById('cite-content');
+  var citeClose = document.getElementById('cite-close');
+  var citeCopy = document.getElementById('cite-copy');
+
+  function openCite(bibtex) {
+    citeContent.textContent = bibtex;
+    citeCopy.textContent = 'Click to copy';
+    citeCopy.classList.remove('copied');
+    citeOverlay.classList.add('active');
+  }
+
+  function closeCite() {
+    citeOverlay.classList.remove('active');
+  }
+
+  document.querySelectorAll('.paper-btn-cite').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      openCite(this.dataset.bibtex);
+    });
+  });
+
+  if (citeClose) {
+    citeClose.addEventListener('click', closeCite);
+  }
+
+  if (citeOverlay) {
+    citeOverlay.addEventListener('click', function (e) {
+      if (e.target === citeOverlay) closeCite();
+    });
+  }
+
+  if (citeCopy) {
+    citeCopy.addEventListener('click', function () {
+      navigator.clipboard.writeText(citeContent.textContent).then(function () {
+        citeCopy.textContent = 'Copied!';
+        citeCopy.classList.add('copied');
+      });
+    });
+  }
+
   // ---- Nav background on scroll ----
   var nav = document.getElementById('nav');
   if (nav) {
