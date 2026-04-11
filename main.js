@@ -24,6 +24,7 @@
   // ---- Photo carousel ----
   var carousel = document.querySelector('.photo-carousel');
   var dots = document.querySelectorAll('.dot');
+  var swipeOccurred = false;
   if (carousel && dots.length > 1) {
     var imgs = carousel.querySelectorAll('.carousel-img');
     var currentIndex = 0;
@@ -41,6 +42,10 @@
       showImage((currentIndex + 1) % imgs.length);
     }
 
+    function prevImage() {
+      showImage((currentIndex - 1 + imgs.length) % imgs.length);
+    }
+
     // Auto-rotate every 4 seconds
     function startAuto() {
       autoTimer = setInterval(nextImage, 4000);
@@ -56,6 +61,47 @@
         showImage(parseInt(this.dataset.index, 10));
         resetAuto();
       });
+    });
+
+    // Touch swipe navigation
+    var touchStartX = 0;
+    var touchStartY = 0;
+    var touchActive = false;
+    var SWIPE_THRESHOLD = 40;
+
+    carousel.addEventListener('touchstart', function (e) {
+      if (e.touches.length !== 1) return;
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      touchActive = true;
+      swipeOccurred = false;
+    }, { passive: true });
+
+    carousel.addEventListener('touchmove', function (e) {
+      if (!touchActive || e.touches.length !== 1) return;
+      var dx = e.touches[0].clientX - touchStartX;
+      var dy = e.touches[0].clientY - touchStartY;
+      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 10) {
+        swipeOccurred = true;
+      }
+    }, { passive: true });
+
+    carousel.addEventListener('touchend', function (e) {
+      if (!touchActive) return;
+      touchActive = false;
+      var touch = e.changedTouches[0];
+      var dx = touch.clientX - touchStartX;
+      var dy = touch.clientY - touchStartY;
+      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) >= SWIPE_THRESHOLD) {
+        if (dx < 0) nextImage();
+        else prevImage();
+        resetAuto();
+        swipeOccurred = true;
+      }
+    });
+
+    carousel.addEventListener('touchcancel', function () {
+      touchActive = false;
     });
 
     startAuto();
@@ -85,6 +131,10 @@
 
     carousel.addEventListener('click', function (e) {
       if (e.target.closest('.dot')) return;
+      if (swipeOccurred) {
+        swipeOccurred = false;
+        return;
+      }
       openLightbox();
     });
 
