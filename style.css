@@ -502,17 +502,13 @@ button {
   border-bottom: none;
 }
 
-.paper-venue {
+.paper-venue,
+.paper-venue.venue-highlight {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--accent-blue);
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.paper-venue.venue-highlight {
-  color: var(--accent-blue);
-  font-weight: 700;
 }
 
 .paper-title {
@@ -522,15 +518,12 @@ button {
   line-height: 1.5;
 }
 
-.paper-authors {
+.paper-authors,
+.paper-first-author .paper-authors {
   font-size: 14px;
   font-weight: 400;
-  color: var(--color-text-muted);
-  line-height: 1.6;
-}
-
-.paper-first-author .paper-authors {
   color: var(--color-text);
+  line-height: 1.6;
 }
 
 .paper-actions {
