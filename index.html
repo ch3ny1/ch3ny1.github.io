@@ -79,13 +79,22 @@
     <section class="card card-photo" id="photo-card">
       <div class="photo-carousel">
         <img src="assets/avatar.jpeg" alt="Chenyi Wang" class="carousel-img active">
-        <!-- Add more photos here: <img src="assets/photo2.jpeg" alt="..." class="carousel-img"> -->
+        <img src="assets/photo1.jpg" alt="Chenyi Wang" class="carousel-img">
+        <img src="assets/photo2.jpg" alt="Chenyi Wang" class="carousel-img">
       </div>
       <div class="photo-dots" id="photo-dots">
         <span class="dot active" data-index="0"></span>
-        <!-- Add more dots for additional photos -->
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
       </div>
     </section>
+
+    <div class="photo-lightbox" id="photo-lightbox" aria-hidden="true" role="dialog" aria-label="Enlarged photo">
+      <div class="lightbox-frame">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img class="lightbox-img" alt="">
+      </div>
+    </div>
 
     <!-- Row 2: Papers + Awards + Easter Egg -->
     <section class="card card-papers" id="papers">
@@ -255,7 +264,7 @@
   </main>
 
   <footer class="footer">
-    <p>© 2026 Chenyi Wang · Last updated Apr. 7, 2026</p>
+    <p>© 2026 Chenyi Wang · Last updated Apr. 11, 2026</p>
   </footer>
 
   <!-- Cite Modal -->

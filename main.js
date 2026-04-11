@@ -58,13 +58,43 @@
       });
     });
 
-    // Click photo to advance
-    carousel.addEventListener('click', function () {
-      nextImage();
-      resetAuto();
+    startAuto();
+  }
+
+  // ---- Photo lightbox ----
+  var lightbox = document.getElementById('photo-lightbox');
+  if (lightbox && carousel) {
+    var lightboxImg = lightbox.querySelector('.lightbox-img');
+    var lightboxClose = lightbox.querySelector('.lightbox-close');
+
+    function openLightbox() {
+      var active = carousel.querySelector('.carousel-img.active');
+      if (!active) return;
+      lightboxImg.src = active.src;
+      lightboxImg.alt = active.alt || '';
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    carousel.addEventListener('click', function (e) {
+      if (e.target.closest('.dot')) return;
+      openLightbox();
     });
 
-    startAuto();
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
+    });
   }
 
   // ---- Easter egg card flip ----
