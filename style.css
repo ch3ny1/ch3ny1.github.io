@@ -200,8 +200,9 @@ button {
 .card-bio { grid-column: 1 / span 2; grid-row: 1; }
 .card-photo { grid-column: 3 / span 1; grid-row: 1; align-self: start; }
 
-/* Row 2: Education full */
-.card-education { grid-column: 1 / -1; grid-row: 2; }
+/* Row 2: Experience (1 col) + Education (2 cols) */
+.card-experience { grid-column: 1 / span 1; grid-row: 2; align-self: start; }
+.card-education { grid-column: 2 / span 2; grid-row: 2; }
 
 /* Row 3: Papers full */
 .card-papers { grid-column: 1 / -1; }
@@ -543,6 +544,39 @@ button {
 .edu-detail a:hover,
 .edu-school a:hover {
   color: var(--accent-blue);
+}
+
+/* ============================================
+   Experience
+   ============================================ */
+.exp-item {
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.exp-item:last-child {
+  border-bottom: none;
+}
+
+.exp-role {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.exp-org {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.exp-detail {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text-dim);
+  line-height: 1.6;
 }
 
 /* ============================================
@@ -963,6 +997,7 @@ button {
   .card-bio,
   .card-photo,
   .card-education,
+  .card-experience,
   .card-papers,
   .card-awards,
   .card-easter-egg,
